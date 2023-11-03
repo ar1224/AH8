@@ -11,6 +11,17 @@ class Node<T> {
 class ECSource {
   public static <T> T getNodeValue(Node<T> head, int index) {
     // todo - note the return type, but don't overthink it
+    for ()
+    
+    while (head != null) {  
+      if (head == index)
+        return true;     
+      head = head.next;  
+    }
+
+    
+    
+    return true;     
     return;
   }
   
